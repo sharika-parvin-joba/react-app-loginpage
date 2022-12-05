@@ -1,0 +1,97 @@
+.page1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.logo{
+    
+    float: left;
+    padding: 20px;
+}
+
+.image{
+    padding: 50px;
+}
+
+.firstDiv{
+    height: 650px;
+    box-shadow: 10px 5px 5px rgb(236, 234, 234);
+}
+
+.secondDiv3{
+    padding-top: 100px;
+    
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.input3{
+    border: none;
+    padding-top: 50px;
+}
+.input-3{
+    border: none;
+   background-color: transparent;
+   width: 200px;
+   float: left;
+   margin-bottom: 100px;
+}
+
+.btn-img3{
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: rgb(65, 134, 238);
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+
+.btn-img3:hover{
+    background-color: white;
+    color:rgb(65, 134, 238) ;
+    border: 1px solid rgb(65, 134, 238) ;
+}
+
+.btn-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.back3{
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin-right: 30px;
+}
+
+
+/* Responsive */
+
+
+@media  only screen and (max-width: 1000px){
+    .page1{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    
+@media  only screen and (max-width: 999px) and (min-width:675px){
+    .page1{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .image{
+        height: 600px;
+        width: 600px;
+    }
+}
+}
